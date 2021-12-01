@@ -1,0 +1,104 @@
+/* generales */
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.separador {
+  width: 100%;
+  height: 3px;
+  background-color: palevioletred;
+  margin: 10px 0 20px 0;
+}
+
+/* contenedor de todos los componentes */
+
+.container {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 280px;
+}
+
+/* inputs */
+
+input:focus {
+  outline: none;
+}
+
+.text-input {
+  border: 1px solid rgb(243, 46, 91);
+  height: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.push-input {
+  background-color: rgb(251, 191, 205);
+  border: 1px solid rgb(243, 46, 91);
+  height: 20px;
+  flex: 1;
+}
+
+/* botones */
+
+.push-btn {
+  max-width: 100px;
+}
+
+.btn {
+  border: 1px solid rgb(243, 46, 91);
+  color: white;
+  background-color: rgb(243, 46, 91);
+  height: 24px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.delete {
+  margin-left: 10px;
+  font-size: 14px;
+  color: rgb(243, 46, 91);
+}
+
+.delete:hover {
+  text-decoration: underline rgb(243, 46, 91);
+  cursor: pointer;
+}
+
+.unpack {
+  margin-top: 15px;
+}
+
+/* estructura */
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.item-container {
+  height: 20px;
+  margin: 3px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
